@@ -39,6 +39,7 @@ nav{
   padding-block: 1em;
 }
 
+
 .nav-link{
   color: whitesmoke;
   text-decoration: none;
@@ -213,6 +214,7 @@ footer {
     flex-wrap: nowrap;
     padding-block: 1em;
     width: 80%;
+    gap: 1rem;
   }
   .title{
     flex: 1;
@@ -231,9 +233,7 @@ footer {
     flex-direction: row;
     justify-content: space-around;
   }
-  .nav-link{
-    font-size: 1.4rem;
-  }
+  
   main section{
     width: 80%;
   }
@@ -254,8 +254,17 @@ footer {
   }
   .feature-image{
     width: 50%;
+    max-width: 400px;
     
   }
+ 
+  p{
+    font-size: 1.2rem;
+    max-width: 900px;
+  }
+}
+ 
+@media (min-width:850px){
   h1{
     font-size: 2rem;
     
@@ -266,11 +275,9 @@ footer {
   h3{
     font-size: 1.4rem;
   }
-  p{
-    font-size: 1.2rem;
-    max-width: 900px;
+  .nav-link{
+    font-size: 1.4rem;
   }
 }
- 
 
 
